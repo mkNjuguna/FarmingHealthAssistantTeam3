@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Farming Health Assistant</string>
+    <string name="farming_health_assistant">Farming Health Assistant</string>
+    <string name="welcome_to_farming_health_assistant">Welcome to the Farming Health Assistant</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_your_phone_number_here">Enter your phone number here</string>
+    <string name="password">Password:</string>
+    <string name="enter_your_password_here">Enter your password here</string>
+    <string name="login">Login</string>
+    <string name="take_a_picture_of_your_crop_or_livestock">Take a picture of your crop or livestock</string>
+    <string name="taken_picture">Taken picture:</string>
+    <string name="upload_for_analysis">UPLOAD FOR ANALYSIS</string>
+    <string name="to_take_a_picture_click_the_image_button_below">To take a picture, click the image button below:</string>
+    <string name="see_analysis_btn">SEE ANALYSIS</string>
+</resources>
