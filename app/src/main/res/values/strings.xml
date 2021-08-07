@@ -15,4 +15,6 @@
     <string name="to_take_a_picture_click_the_image_button_below">To take a picture, click the image button below:</string>
     <string name="see_analysis_btn">SEE ANALYSIS</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="logout">LOGOUT</string>
+    <string name="todo">TODO</string>
 </resources>
