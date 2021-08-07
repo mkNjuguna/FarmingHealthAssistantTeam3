@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/login_app_title" />
 
     <TextView
-        android:id="@+id/login_phonenumber_header"
+        android:id="@+id/login_email_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/login_header" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/login_email_input"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
@@ -61,13 +61,14 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:fontFamily="@font/open_sans"
-        android:hint="@string/enter_your_phone_number_here"
+        android:hint="@string/enter_your_email_address_here"
         android:importantForAutofill="no"
-        android:inputType="phone"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_phonenumber_header" />
+        app:layout_constraintTop_toBottomOf="@+id/login_email_header"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/login_password_header"
@@ -81,10 +82,10 @@
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/login_email_input" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/login_password_input"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
@@ -93,16 +94,16 @@
         android:ems="10"
         android:fontFamily="@font/open_sans"
         android:hint="@string/enter_your_password_here"
-
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_password_header" />
+        app:layout_constraintTop_toBottomOf="@+id/login_password_header"
+        tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="153dp"
@@ -111,10 +112,11 @@
         android:layout_marginEnd="153dp"
         android:layout_marginRight="153dp"
         android:fontFamily="@font/open_sans_semibold"
-        android:text="@string/login"
+        android:text="@string/login_login_page"
         android:textSize="16sp"
         app:backgroundTint="#6B0D55"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/login_password_input"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
